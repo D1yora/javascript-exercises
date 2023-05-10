@@ -44,3 +44,6 @@ console.log(Number("5"));
 let abc = "5c";
 console.log(isNaN(6 + undefined)); // not a num
 console.log(isNaN(6 + null)); // num + null = num
+
+
+let res1 = users.filter((v) => v > 2000);
